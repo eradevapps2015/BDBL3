@@ -13,7 +13,7 @@ xmlns:gap = "http://phonegap.com/ns/1.0">
   <content src="index.html"/>
   <access origin="*"/>
      <icon src="img/icon.png"/>
-      <gap:splash src="img/git_spash.png" />
+      
        
  <preference name="orientation" value="portrait" />
  
@@ -22,8 +22,11 @@ xmlns:gap = "http://phonegap.com/ns/1.0">
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="android-minSdkVersion" value="16"/>
   <preference name="BackupWebStorage" value="none"/>
-  <preference name="SplashScreen" value="screen"/>
-  <preference name="SplashScreenDelay" value="3000"/>
+ <!--  <preference name="SplashScreen" value="screen"/>
+ <preference name="SplashScreenDelay" value="3000"/>-->
+ 
+ <gap:splash src="img/git_spash.png" />
+ 
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
