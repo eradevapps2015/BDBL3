@@ -252,14 +252,12 @@ document.addEventListener("deviceready", function() {
 		  title: 'Password Required !',
 		  //template:'From date'
 		  })
-		}
-		/*else if(navigator.connection.type == Connection.NONE){
+		}else if(navigator.connection.type == Connection.NONE){
 		 $ionicPopup.confirm({
                         title: "Internet Disconnected",
                         content: "The internet is disconnected on your device. Please Connect Internet"
                     })	
-		}*/
-		else{
+		}else{
 	
 			$ionicLoading.show({
                 template: 'Please Wait..'
